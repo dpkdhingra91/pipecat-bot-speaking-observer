@@ -1,0 +1,17 @@
+[project]
+name = "pipecat-bot-speaking-observer"
+version = "0.1.0"
+description = "Pipecat FrameProcessor for turn-gate orchestration: watches bot-speaking boundaries, pushes UserStartedSpeakingFrame upstream, exposes callbacks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Deepak Dhingra", email = "dpkdhingra91@gmail.com"}]
+keywords = ["pipecat", "voice-agents", "ai", "turn-gate", "websocket"]
+dependencies = ["pipecat-ai>=0.0.50"]
+
+[project.urls]
+Homepage = "https://github.com/dpkdhingra91/pipecat-bot-speaking-observer"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
