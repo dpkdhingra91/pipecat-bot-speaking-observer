@@ -55,6 +55,12 @@ On `BotStoppedSpeakingFrame`, the observer always pushes a `UserStartedSpeakingF
 
 Your `on_bot_stopped_speaking` callback is where you start the *fallback* timer that closes the gate again if the client misbehaves (doesn't send `client:playback_drained`, drops the WS, etc.).
 
+## Related projects
+
+- 🎯 [`pipecat-sarvam-azure-starter`](https://github.com/dpkdhingra91/pipecat-sarvam-azure-starter) — canonical Sarvam + Azure voice pipeline this observer was extracted from.
+- 🛡️ [`pipecat-content-filter-fallback`](https://github.com/dpkdhingra91/pipecat-content-filter-fallback) — pairs in the same pipeline.
+- 📊 [`pipecat-outbound-audio-counter`](https://github.com/dpkdhingra91/pipecat-outbound-audio-counter) — diagnostic sibling for TTS silent-failure detection.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
