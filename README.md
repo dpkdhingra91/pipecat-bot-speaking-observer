@@ -64,3 +64,7 @@ Your `on_bot_stopped_speaking` callback is where you start the *fallback* timer 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+*Extracted from the production voice stack of [AI Interview Agents](https://www.aiinterviewagents.com) — an AI voice interviewer that runs real two-way spoken interviews and screens candidates at scale.*
